@@ -73,10 +73,32 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.container .top-content .top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.top nav a {
+    margin: 32px;
+}
+
+.top-content .top .lambda {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-content .top .mid-img {
+    margin-top: 20px;
 }
 
 .top-content .text-container {
