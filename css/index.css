@@ -301,31 +301,23 @@ footer nav a {
     display: flex;
     flex-flow: row wrap;
 }
-.about-page .strategy {
+.about-page .about-content {
     width: 370px;
     margin: 15px;
     border-bottom: 1px dashed black;
     padding-bottom: 10px;
 }
 
-.about-page .how {
-    width: 370px;
-    margin: 15px;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
+
+.about-page .about-main button {
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px 8px 5px 8px;
 }
 
-.about-page .places {
-    width: 370px;
-    margin: 15px;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
-}
-
-.about-page .collaboration {
-    width: 370px;
-    margin: 15px;
-    border-bottom: 1px dashed black;
-    padding-bottom: 10px;
+.about-page .work {
+    margin: 20px;
 }
 
