@@ -73,10 +73,32 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.container .top-content .top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.top nav a {
+    margin: 32px;
+}
+
+.top-content .top .lambda {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-content .top .mid-img {
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -101,10 +123,110 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box-1 {
+    background-color: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-2 {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-4 {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +266,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About css styling*/
+
+.about-page header .top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+.about-page .top .about-img {
+    margin-top: 20px;
+}
+
+.about-page header .about {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .about-main {
+    display: flex;
+    flex-flow: row wrap;
+}
+.about-page .about-content {
+    width: 370px;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+
+.about-page .about-main button {
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px 8px 5px 8px;
+}
+
+.about-page .work {
+    margin: 20px;
+}
+
