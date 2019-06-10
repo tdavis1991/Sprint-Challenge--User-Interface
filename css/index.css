@@ -276,3 +276,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About css styling*/
+
+.about-page header .top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+.about-page .top .about-img {
+    margin-top: 20px;
+}
+
+.about-page header .about {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .about-main {
+    display: flex;
+    flex-flow: row wrap;
+}
+.about-page .strategy {
+    width: 370px;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.about-page .how {
+    width: 370px;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.about-page .places {
+    width: 370px;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.about-page .collaboration {
+    width: 370px;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
